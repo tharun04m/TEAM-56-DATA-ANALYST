@@ -1,11 +1,11 @@
-# 🚀 Supply Prescript: Closed-Loop Prescriptive Analytics
+# Supply Prescript: Closed-Loop Prescriptive Analytics
 
 **Domain:** Supply Chain Operations & Operations Research
 
-## 📌 Problem Statement
+## Problem Statement
 Predictive analytics (e.g., predicting a supply chain delay) are now standard, but they only tell you *what will happen*. The human operator still has to figure out *what to do*. Furthermore, standard dashboards don't learn; if an operator makes a decision, the system rarely tracks whether that decision actually worked.
 
-## 💡 Use Case
+##  Use Case
 A logistics manager is warned by the predictive model of an impending 14-day delay for microchips. Instead of stopping there, the **SupplyPrescript** engine runs a linear optimization algorithm and *prescribes* three mathematically optimal alternatives:
 * **(A)** Pay $15k for Air Freight
 * **(B)** Buy from a secondary supplier at a 10% premium
@@ -24,7 +24,7 @@ The manager clicks Option A directly in the dashboard. The system writes this de
 
 ---
 
-## 📅 Week-wise Development Plan
+##  Week-wise Development Plan
 
 ### Week 1: Baselines & Scaffolding
 * **ML & Optimization Engine:** Train an XGBoost model on historical mock supply chain data to accurately predict shipment delays (Classification/Regression).
@@ -51,7 +51,7 @@ The manager clicks Option A directly in the dashboard. The system writes this de
 
 ---
 
-## 🌟 Common Project Features
+## Common Project Features
 * **Agentic & Automated Workflows:** Replacing manual, human-in-the-loop BI analysis with agentic orchestration, self-healing data pipelines, and prescribed decision-making.
 * **Modern Data Architecture (2026 Standards):** Utilizing Lakehouse architectures (Apache Iceberg/Delta Lake), semantic layers, and streaming ingestions to overcome the latency and governance limitations of legacy data warehouses.
 * **Write-Back and Closed-Loop Systems:** Moving away from read-only "dead" dashboards. Data flows bidirectionally, allowing user decisions to mutate the underlying databases and retrain models.
