@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+scipy
+fastapi
+uvicorn
+psycopg2-binary
+sqlalchemy
